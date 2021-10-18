@@ -1,7 +1,7 @@
 <?php
 
 include 'head.php';
-
+ //estas dos lineas no son variables, son constantes
 define('DURACION_MIN', 1);
 define('DURACION_MAX', 100);
 
@@ -15,7 +15,7 @@ print '<form action="cookies_2.php" method="post">
     </li>
     <br>
     <li>Obtener el valor la cookie 
-      <input type="submit" value="modificar" name="obtener" />
+      <input type="submit" value="obtener" name="obtener" />
     </li>
     <br>
     <li>Modificar el valor la cookie 
